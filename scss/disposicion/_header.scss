@@ -1,0 +1,9 @@
+.navbar-nav {
+    border-bottom: 3px solid black;
+}
+.nav-item {
+    margin-right: map-get($fontSize , size7 );
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}

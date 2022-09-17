@@ -1,0 +1,59 @@
+.dig {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "img img"
+      "digTxt digTxt"
+      "ds car";
+}
+.imgDig { 
+    width: map-get($fontSizePor , size10 );
+    height: auto;
+    grid-area: img; 
+}
+.imgDig {
+    img{
+    width: map-get($fontSizePor , size10 );
+    height: 700px;
+}
+}
+.digTxt {
+    @extend .textoDig;
+    width: map-get($fontSizePor , size10 );
+    grid-area: digTxt;
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    p{
+        margin: 10px;
+    }
+}
+.digTxt 
+.ds { 
+    width: map-get($fontSizePor , size10 );
+    grid-area: ds;
+}
+.ds {
+    h3{
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
+}
+}
+.ds p{
+    font-size: 17px;
+}
+.car { grid-area: car;}
+.car {
+    h3{
+    font-size: 25px;
+    margin: map-get($fontSize , size1 );
+    font-weight: bold;
+    p{
+    font-size: 17px;
+    }
+}
+}

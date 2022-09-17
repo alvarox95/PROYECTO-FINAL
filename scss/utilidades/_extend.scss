@@ -1,0 +1,12 @@
+.texto{
+    color: $colorBlanco;
+    font-family: $fontAri;
+    font-weight: bold;
+    text-align: center;
+}
+.textoDig{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
