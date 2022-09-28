@@ -7,17 +7,10 @@
     background-size: map-get($fontSizePor , size10 );
     background-repeat: no-repeat;
 }
-.for{
-    width: map-get($fontSizePor , size5 );
-}
 .pf{
     color: $colorBlanco;
     font-family: $fontAri;
     margin: 0;
-}
-.pf1{
-    margin: 0;
-    font-family: $fontAri;
 }
 textarea{
     resize: none;

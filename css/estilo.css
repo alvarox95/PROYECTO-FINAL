@@ -441,17 +441,10 @@ a {
   background-size: 100%;
   background-repeat: no-repeat; }
 
-.for {
-  width: 50%; }
-
 .pf {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0; }
-
-.pf1 {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; }
 
 textarea {
   resize: none;
